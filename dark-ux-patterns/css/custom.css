@@ -1,0 +1,29 @@
+
+.reveal .slide-background-content {
+	background-size: contain;
+}
+
+p.small {
+	font-size: 1.5rem;
+	color:grey;
+}
+
+.reveal h5 {
+	text-transform: initial;
+}
+
+.custom-center-block {
+	display: flex;
+	height: 80%;
+	align-content: center;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.custom-center-block.column {
+	flex-direction: column;
+}
+
+.speaker-controls-notes .value {
+	font-size: 1em;
+}
