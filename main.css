@@ -1,0 +1,1560 @@
+
+@font-face {
+    font-family: "Poppins-Black";
+    src: url("/font/Poppins/Poppins-Black.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-BlackItalic";
+    src: url("/font/Poppins/Poppins-BlackItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Bold";
+    src: url("/font/Poppins/Poppins-Bold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-BoldItalic";
+    src: url("/font/Poppins/Poppins-BoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBold";
+    src: url("/font/Poppins/Poppins-ExtraBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-ExtraBoldItalic";
+    src: url("/font/Poppins/Poppins-ExtraBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLight";
+    src: url("/font/Poppins/Poppins-ExtraLight.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-ExtraLightItalic";
+    src: url("/font/Poppins/Poppins-ExtraLightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Italic";
+    src: url("/font/Poppins/Poppins-Italic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Light";
+    src: url("/font/Poppins/Poppins-Light.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-LightItalic";
+    src: url("/font/Poppins/Poppins-LightItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Medium";
+    src: url("/font/Poppins/Poppins-Medium.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-MediumItalic";
+    src: url("/font/Poppins/Poppins-MediumItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Regular";
+    src: url("/font/Poppins/Poppins-Regular.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBold";
+    src: url("/font/Poppins/Poppins-SemiBold.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-SemiBoldItalic";
+    src: url("/font/Poppins/Poppins-SemiBoldItalic.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-Thin";
+    src: url("/font/Poppins/Poppins-Thin.ttf") format("truetype");
+}
+
+@font-face {
+    font-family: "Poppins-ThinItalic";
+    src: url("/font/Poppins/Poppins-ThinItalic.ttf") format("truetype");
+}
+
+*> {
+    font-family: Poppins-Light, sans-serif;
+}
+
+html {
+    height: 100%;
+    background: #FDFFFC;
+}
+
+body {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    color: #FDFFFC;
+    padding: 0;
+    margin: 0;
+    font-family: Poppins-Light, sans-serif;
+    font-weight: 300;
+    overflow-x: hidden;
+}
+
+.header {
+    height: 4rem;
+    border-bottom: 2px solid #011627;
+}
+
+nav {
+    display: flex;
+    line-height: 4rem;
+}
+
+.header-nav-item {
+    flex: 1;
+    width: 100px;
+    text-decoration: none;
+    color: #FDFFFC;
+    background: #011627;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 2px solid transparent;
+}
+
+.header-nav-item.vitaliy {
+    font-size: 1.5rem;
+    flex: 2;
+}
+
+.header-nav-item:hover {
+    color: #d4d4d4;
+    background: #011627;
+    cursor: pointer;
+    border-bottom: 2px solid #FDFFFC;
+}
+
+main {
+    flex: 1;
+    flex-direction: column;
+}
+
+main .main-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: calc(100vh - 10rem);
+    min-height: 16rem;
+}
+
+.description {
+    display: flex;
+    text-align: center;
+    font-family: Poppins-Light, sans-serif;
+    font-weight: 300;
+    /* background: #FDFFFC; */
+    /* background: #FDFFFC; */
+    background: #607d8b;
+    padding: 2rem 0 0;
+}
+
+.description h1 {
+    font-family: Poppins-Medium, sans-serif;
+}
+
+.description .photo img {
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    /*box-shadow: 0px 0px 9px rgba(0, 0, 0, .8);*/
+    border: 0.25rem solid #E71D36;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+}
+
+.name {
+    font-size: 4rem;
+    /* color: #E71D36; */
+    color: #fff;
+    text-align: center;
+}
+
+.aboutme {
+    font-size: 2rem;
+    /* color: #011627; */
+    color: #fff;
+}
+
+.space {
+    margin-bottom: 16px;
+}
+
+.space2 {
+    margin-top: 15px;
+}
+
+a {
+    text-decoration: none;
+    /*color: #00008B;*/
+}
+
+#job {
+    width: 300px;
+    margin-top: 400px;
+    margin-left: 300px;
+}
+
+#wishlist {
+    width: 300px;
+    margin-left: 300px;
+}
+
+#wishlist-links {
+    margin-left: 50px;
+    font-size: 22px;
+}
+
+.footer-website {
+    font-size: 8px;
+    margin: 0 10;
+    text-align: left;
+}
+
+.projects-description {
+    font-size: 1.4em;
+}
+
+.projects-description p {
+    font-size: 1.1em;
+    /*color: #666;*/
+    margin-left: 1%;
+}
+
+.projects-description h3 {
+    font-size: 1.4em;
+}
+
+.projects-description h4 {
+    font-weight: normal;
+    font-size: 1em;
+    margin-left: 3%;
+}
+
+.projects-description img {
+    margin-left: 5%;
+}
+
+.projects-description a {
+    /*color:blue;*/
+    text-decoration: underline;
+}
+
+.projects-description span {
+    margin-left: 2%;
+}
+
+.resume {
+    margin-left: 5%;
+    width: 95%;
+    font-size: 1em;
+}
+
+.resume h1 {
+    text-align: center;
+}
+
+.resume h2 {
+    text-align: center;
+}
+
+.resume h2,
+u {
+    text-align: left;
+}
+
+.resume h3 {
+    text-align: center;
+}
+
+.resume p {}
+
+.resume .text-left {
+    text-align: left;
+    margin-left: 2%;
+}
+
+.resume div {
+    margin-left: 4%;
+}
+
+.resume div b {
+    margin-left: -1%;
+}
+
+.notbold {
+    float: right;
+    margin-right: 45%;
+    font-weight: normal;
+}
+/* My Projects*/
+
+.projects-section,
+.talks-section {
+    flex-direction: column;
+}
+
+.my-projects-header {
+    display: flex;
+    align-items: center;
+}
+
+.my-projects-back-button {
+    width: 120px;
+}
+
+.my-header {
+    flex: 1;
+    font-size: 2em;
+    text-align: center;
+}
+
+.my-project-list {
+    padding-top: 1em;
+}
+
+.my-project-item {
+    list-style: none;
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 80%;
+    margin: 0 auto;
+    height: 10rem;
+    padding: 0 1rem;
+}
+
+.my-project-item:hover {
+    cursor: pointer;
+    opacity: 0.9;
+    background: #607d8b;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.32);
+    border-radius: 1rem;
+}
+
+.my-project-item a {
+    padding: 0;
+    text-decoration: none;
+    color: #222;
+    display: flex;
+    align-items: center;
+    flex: 1;
+    justify-content: space-between;
+}
+
+.my-project-item a:hover {
+    /* cursor: pointer; */
+}
+
+.my-project-item a span {
+    flex: 1;
+    font-family: 'Poppins-Medium';
+}
+
+.my-project-item .framework-name {
+    font-family: 'Poppins-Light';
+    padding-right: 2rem;
+    color: #222;
+}
+
+.my-project-item img {
+    height: 8rem;
+    border-radius: 1rem;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.32);
+}
+
+.my-project-image {
+    width: 98%;
+    padding: 20px;
+    margin: 10px 0;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.32);
+}
+
+.my-projects-back-button {
+    background-color: #FDFFFC;
+    border: 1px solid #ecedee;
+    color: #333;
+    padding: 15px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    width: 120px;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+}
+
+.my-projects-back-button:hover {
+    background-color: #ecedee;
+    color: #222;
+}
+
+.contact-me-outer {
+    background: white;
+    height: 300px;
+    width: 360px;
+    margin: 0 auto;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.32);
+}
+
+.contact-me-inner {
+    padding: 5px;
+}
+
+#contact_form br {
+    height: 24px;
+}
+
+#contact_form label {}
+
+#contact_form input {
+    height: 24px;
+    margin: 0 0 10px;
+}
+
+.send-email {
+    background: #4CAF50;
+    border: none;
+    height: 36px !important;
+    width: 110px;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.32);
+    color: white;
+    font-size: 16px;
+}
+
+.send-email:hover {
+    /*box-shadow: 0 3px 10px rgba(0,0,0,0.42);*/
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    cursor: pointer;
+}
+
+#allphotos {
+    width: 100%;
+    margin: 0 auto;
+}
+
+.photo {
+    /* background: url(images/me2.jpg) 50% 50% no-repeat; */
+    /* width: 280px; */
+    /* height: 280px; */
+    opacity: 0.5;
+    /* border-radius: 50%; */
+    /* border: 0.25rem solid #E71D36; */
+    /* box-shadow: 0 3px 10px rgba(0,0,0,0.24); */
+}
+
+#photo1 {
+    text-align: center;
+}
+
+.pics img {
+    border-radius: 20px;
+}
+
+.margin20 {
+    margin-left: 20px;
+}
+
+#column h3 {
+    margin-left: 10px;
+}
+
+#column h2 {
+    margin-left: -10px;
+}
+
+.my-photos-header {
+    width: 100%;
+    background: #ff5722;
+    color: #fff;
+    font-size: 1.5rem;
+    margin: 0;
+    padding: 2rem 0 2rem;
+    border: 2px solid transparent;
+    /* border-bottom: 2px solid #607d8b; */
+}
+
+.my-photos-header:hover {
+    cursor: pointer;
+    opacity: 0.9;
+}
+
+.photo-gallery-wrap {
+    background: #ff5722;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 1rem 0 4rem;
+}
+
+.gallery-photo {
+    /* flex: 1; */
+    padding: 1rem 0;
+}
+
+.gallery-photo img {
+    box-shadow: 0 3px 10px rgba(0, 0, 0, 0.24);
+}
+
+.hidden {
+    display: none;
+}
+
+@media only screen and (max-width: 640px) {
+    main .main-wrap {
+        height: calc(100vh - 16rem);
+    }
+    .name {
+        font-size: 2rem;
+    }
+    .aboutme {
+        font-size: 1rem;
+        color: #011627;
+    }
+    .description {
+        flex-direction: column;
+        margin: 0;
+    }
+    .description .photo img {
+        width: 64px;
+        height: 64px;
+    }
+    .links {
+        font-size: 14px;
+    }
+    .photo-gallery-wrap {
+        padding: 0 0 4rem;
+    }
+    .gallery-photo {
+        padding: 0;
+    }
+    .gallery-photo img {
+        max-width: 100%;
+    }
+    .my-photos-header {
+        padding: 2rem 0 2rem;
+    }
+    .my-project-list {
+        padding: 0;
+    }
+    .my-project-item {
+        width: 96%;
+        padding: 0;
+    }
+    .my-project-item a {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 240px) {
+    .header {
+        height: auto;
+        border: none;
+    }
+    .header-nav {
+        flex-direction: column;
+        height: 6rem;
+    }
+    .header-nav-item {
+        line-height: 2rem;
+    }
+}
+/* BREAD */
+
+.bread .description {
+    background: none;
+    padding: 0;
+}
+
+.bread .main-wrap {
+    background-image: url(bread-basket/images/background.png);
+}
+
+.bread .description .bread-photo {
+    display: flex;
+    justify-content: center;
+}
+
+.bread .description .bread-photo img {
+    width: 50%;
+    -webkit-border-radius: none;
+    -moz-border-radius: none;
+    border-radius: none;
+    border: none;
+    box-shadow: none;
+    filter: brightness() invert(1);
+}
+
+.bread .description h1,
+.bread .description .aboutme {
+    color: white;
+}
+
+.bread .header {
+    height: 4rem;
+    border-bottom: 2px solid #011627;
+    display: flex;
+}
+
+.bread .header nav {
+    /* flex: 1; */
+}
+
+.bread .header-nav-item {
+    /* flex: 1; */
+    font-family: Poppins-Medium;
+    color: black;
+    background: #FDFFFC;
+    font-size: 1rem;
+    text-align: center;
+    border-bottom: 4px solid transparent;
+}
+
+.bread .header-nav-item:hover {
+    color: #040407;
+    cursor: pointer;
+    opacity: 0.7;
+    border-bottom: 4px solid #2c31a8;
+}
+
+.bread-nav-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 1rem;
+}
+
+.bread .spacer {
+    flex: 1;
+}
+
+.bread-login {
+    margin: 0 2rem;
+}
+
+.bread-button {
+    background: #5156EA;
+    border-radius: 5px;
+    font-style: normal;
+    font-family: Poppins-Bold;
+    align-items: center;
+    text-align: center;
+    color: #FFFFFF;
+    height: 70%;
+    justify-content: center;
+    border: 1px solid #5156EA;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.bread-button:hover {
+    opacity: 0.7;
+}
+
+.apply-wrap {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.bread-button.apply {
+    padding: 1rem;
+    border-radius: 30px;
+    width: 200px;
+}
+
+.bread-benefits-section {
+    margin: 0 0 4rem;
+}
+
+.bread-benefits-section>*,
+.bread-featured-partners>* {
+    color: black;
+}
+
+.bread-benefits-block-section {
+    display: flex;
+    justify-content: center;
+}
+
+.bread-benefits-block {
+    margin: 2rem 1rem;
+}
+
+.bread-card {
+    background: white;
+    color: black;
+    padding: 1rem 2rem;
+    width: 16rem;
+    height: 100%;
+    border-radius: 30px;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.bread-card.first {
+    background: #003da5;
+    color: white;
+}
+
+.bread-card .oversized-lg {
+    font-family: Poppins-Bold;
+    font-size: 4rem;
+}
+
+.bread-card p {
+    margin: 0;
+}
+
+.bread-cta {}
+
+.bread-card .subhead-md {
+    font-family: Poppins-Medium;
+    font-size: 1rem;
+    /* line-height: 24px; */
+}
+
+.bread-deals {
+    /* margin: 2rem 0; */
+    color: black;
+}
+
+.bread-deals ul {
+    /* grid-template-columns: repeat(4, minmax(0, 1fr));
+    display: grid;
+    grid-gap: 10px 5px; */
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin: 0 0 6rem 0;
+    vertical-align: baseline;
+}
+
+.bread-deals ul li {
+    background-color: white;
+    margin: 1rem;
+    flex: 1;
+    padding: 1rem 2rem;
+    border-radius: 30px;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.15);
+}
+
+.bread-deals ul li:hover {
+    cursor: pointer;
+    background-color: #f8f8f8;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.35);
+}
+
+.bread-deals ul li .bp-c-card_content {}
+
+.bread .bread-deals .bp-c-image {
+    width: 200px;
+}
+
+.bread h2 {
+    font-family: Poppins-Bold;
+    font-size: 3rem;
+}
+
+.bread h2 {
+    font-family: Poppins-Bold;
+    font-size: 3rem;
+}
+
+.bread h3 {
+    margin: 0;
+    font-family: Poppins-Medium;
+    font-size: 2rem;
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+}
+
+.bread h3.express {
+    color: white;
+}
+
+.bread .bp-p-dealCard_price {
+    font-family: Poppins-Bold;
+    display: block;
+}
+
+.bread .bread-brand {
+    padding-right: 1rem;
+}
+
+.bread .bp-p-dealCard_note {
+    font-family: Poppins-LightItalic;
+}
+
+.bread .plp-status__label {
+    font-family: Poppins-ExtraLightItalic;
+}
+
+.bread .bp-c-card_title {
+    font-family: Poppins-Medium;
+    font-size: 1.5rem;
+    color: black;
+}
+
+.bread .bp-c-card_title:hover {
+    color: #666;
+}
+
+.bread .bp-c-card-description {
+    font-family: Poppins-Light;
+    font-size: 1rem;
+}
+
+.bread-card-apply {
+    margin: 2rem 0 4rem;
+    /* background-image: url(bread-basket/images/home-background.png); */
+}
+
+.bread-footer {
+    border-top: 1px solid #ecedee;
+}
+
+.bread-footer nav {
+    color: black;
+    display: flex;
+    margin: 0;
+}
+
+.bread-footer nav ul {
+    list-style: none;
+    display: flex;
+}
+
+.bread-footer nav ul li {
+    padding-right: 2rem;
+}
+
+.bread-footer p {
+    padding-right: 1rem;
+}
+
+.bread-footer nav ul li:hover {
+    cursor: pointer;
+    opacity: 0.7;
+}
+
+.bread-brand-wrap {
+    /* margin: 3rem 0; */
+    margin: 0;
+    padding-bottom: 3rem;
+}
+
+.bread-brand-wrap.express {
+    background: #1a1918;
+}
+
+.bread-brand-wrap.ikea {
+    background: #FFDA1A;
+}
+
+.bread .bread-deals .share-icon {
+    text-align: right;
+    font-family: Poppins-Light;
+    float: right;
+    background: none;
+    border: none;
+}
+
+.bread .bread-deals .share-icon:hover {
+    opacity: 0.7;
+    cursor: pointer;
+}
+
+.bread-featured-partners {
+    background: #59bec9;
+    padding: 3rem 0;
+}
+
+.bread-featured-partners .row {
+    margin: 1rem 0 3rem;
+    display: flex;
+    flex-wrap: nowrap;
+    align-content: center;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.bread-featured-partners .leading-brands-logos {
+    flex: 1;
+}
+
+.bread-featured-partners .leading-brands-logos img {
+    max-width: 200px;
+}
+
+.bread-embed-icon {            
+    
+}
+.vert-space{
+    height: 1rem;
+}
+
+@media only screen and (max-width: 1100px) {
+    .bread h2 {
+        font-size: 2rem;
+    }
+    .bread h3 {
+        font-size: 1.5rem;
+    }
+    .bread .header-nav-item {
+        font-family: inherit;
+    }
+    .bread-login {
+        margin: 0;
+    }
+    .bread .header {
+        height: inherit;
+        padding: 0.5rem 0 0;
+    }
+    .bread .header nav {
+        flex-direction: column;
+        line-height: 2rem;
+    }
+    .bread .header nav a {
+        text-align: left;
+        padding-left: 2rem;
+    }
+    .bread-benefits-block-section {
+        flex-direction: column;
+    }
+    .bread-deals ul {
+        /* grid-template-columns: repeat(2, minmax(0, 1fr)); */
+    }
+    .bread-benefits-block {
+        margin: 1rem;
+    }
+    .bread-card {
+        width: 80%;
+        margin: 0 auto;
+    }
+    .bread-deals ul {
+        flex-direction: column;
+    }
+    .bread-deals ul li {
+        margin-bottom: 2rem;
+    }
+    .bread-button {
+        height: 3rem;
+    }
+    .bread-button.apply {
+        height: inherit;
+    }
+    .bread-featured-partners .row {
+        flex-direction: column;
+    }
+    .bread-footer nav {
+        line-height: 2rem;
+    }
+    .bread-footer nav ul {
+        flex-direction: column;
+    }
+    .bread-card-apply {
+        margin-top: 0;
+    }
+    .bread-featured-partners .leading-brands-logos {
+        padding-bottom: 3rem;
+    }
+    .bread .spacer {
+        display: none;
+    }
+}
+
+.provider-toast {
+    width: 200px;
+    height: auto;
+    font-family: Poppins-ExtraLight;
+    padding: 10px;
+    border-radius: 2px;
+    margin: 0 auto;
+}
+
+.sticky-buttons {
+        --mdc-typography-headline1-font-size: 96px;
+            --mdc-typography-headline1-line-height: 96px;
+            --mdc-typography-headline1-font-style: normal;
+            --mdc-typography-headline1-font-weight: 300;
+            --mdc-typography-headline1-letter-spacing: -1.5px;
+            --mdc-typography-headline2-font-size: 60px;
+            --mdc-typography-headline2-line-height: 60px;
+            --mdc-typography-headline2-font-style: normal;
+            --mdc-typography-headline2-font-weight: 300;
+            --mdc-typography-headline2-letter-spacing: -0.5px;
+            --mdc-typography-headline3-font-size: 48px;
+            --mdc-typography-headline3-line-height: 50px;
+            --mdc-typography-headline3-font-style: normal;
+            --mdc-typography-headline3-font-weight: 400;
+            --mdc-typography-headline3-letter-spacing: 0px;
+            --mdc-typography-headline4-font-size: 34px;
+            --mdc-typography-headline4-line-height: 40px;
+            --mdc-typography-headline4-font-style: normal;
+            --mdc-typography-headline4-font-weight: 400;
+            --mdc-typography-headline4-letter-spacing: 0.25px;
+            --mdc-typography-headline5-font-size: 24px;
+            --mdc-typography-headline5-line-height: 32px;
+            --mdc-typography-headline5-font-style: normal;
+            --mdc-typography-headline5-font-weight: 400;
+            --mdc-typography-headline5-letter-spacing: 0px;
+            --mdc-typography-headline6-font-size: 20px;
+            --mdc-typography-headline6-line-height: 32px;
+            --mdc-typography-headline6-font-style: normal;
+            --mdc-typography-headline6-font-weight: 500;
+            --mdc-typography-headline6-letter-spacing: 0.15px;
+            --mdc-typography-subtitle1-font-size: 16px;
+            --mdc-typography-subtitle1-line-height: 28px;
+            --mdc-typography-subtitle1-font-style: normal;
+            --mdc-typography-subtitle1-font-weight: 400;
+            --mdc-typography-subtitle1-letter-spacing: 0.15px;
+            --mdc-typography-subtitle2-font-size: 14px;
+            --mdc-typography-subtitle2-line-height: 22px;
+            --mdc-typography-subtitle2-font-style: normal;
+            --mdc-typography-subtitle2-font-weight: 500;
+            --mdc-typography-subtitle2-letter-spacing: 0.1px;
+            --mdc-typography-body1-font-size: 16px;
+            --mdc-typography-body1-line-height: 24px;
+            --mdc-typography-body1-font-style: normal;
+            --mdc-typography-body1-font-weight: 400;
+            --mdc-typography-body1-letter-spacing: 0.5px;
+            --mdc-typography-body2-font-size: 14px;
+            --mdc-typography-body2-line-height: 20px;
+            --mdc-typography-body2-font-style: normal;
+            --mdc-typography-body2-font-weight: 400;
+            --mdc-typography-body2-letter-spacing: 0.25px;
+            --mdc-typography-caption-font-size: 12px;
+            --mdc-typography-caption-line-height: 20px;
+            --mdc-typography-caption-font-style: normal;
+            --mdc-typography-caption-font-weight: 400;
+            --mdc-typography-caption-letter-spacing: 0.4px;
+            --mdc-typography-button-font-size: 14px;
+            --mdc-typography-button-line-height: 36px;
+            --mdc-typography-button-font-style: normal;
+            --mdc-typography-button-font-weight: 500;
+            --mdc-typography-button-letter-spacing: 1.25px;
+            --mdc-typography-overline-font-size: 12px;
+            --mdc-typography-overline-line-height: 32px;
+            --mdc-typography-overline-font-style: normal;
+            --mdc-typography-overline-font-weight: 500;
+            --mdc-typography-overline-letter-spacing: 1.5px;
+            --mdc-theme-primary: #0057b8;
+            --mdc-theme-primary-rgb: 0, 87, 184;
+            --mdc-theme-on-primary: #ffffff;
+            --mdc-theme-on-primary-rgb: 255, 255, 255;
+            --mdc-theme-secondary: #ffd700;
+            --mdc-theme-secondary-rgb: 255, 215, 0;
+            --mdc-theme-on-secondary: #000000;
+            --mdc-theme-on-secondary-rgb: 0, 0, 0;
+            --mdc-theme-surface: #ffd700;
+            --mdc-theme-surface-rgb: 255, 215, 0;
+            --mdc-theme-on-surface: #000000;
+            --mdc-theme-on-surface-rgb: 0, 0, 0;
+            --mdc-theme-surface-mix-4: #f5ce00;
+            --mdc-theme-surface-mix-12: #e0bd00;
+            --mdc-icons-font-family: "Material Icons";
+            --mdc-typography-headline1-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline2-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline3-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline4-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline5-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline6-font-family: "Roboto", sans-serif;
+            --mdc-typography-subtitle1-font-family: "Roboto", sans-serif;
+            --mdc-typography-subtitle2-font-family: "Roboto", sans-serif;
+            --mdc-typography-font-family: "Roboto", sans-serif;
+            --mdc-typography-body1-font-family: "Roboto", sans-serif;
+            --mdc-typography-body2-font-family: "Roboto", sans-serif;
+            --mdc-typography-caption-font-family: "Roboto", sans-serif;
+            --mdc-typography-button-font-family: "Roboto", sans-serif;
+            --mdc-typography-overline-font-family: "Roboto", sans-serif;
+            --mdc-button-radius: 10px;
+            --mdc-card-radius: 10px;
+            --mdc-chip-radius: 10px;
+            --mdc-data-table-radius: 10px;
+            --mdc-image-list-radius: 10px;
+            --mdc-nav-drawer-radius: 10px;
+            --mdc-text-field-radius: 10px;
+            --wp-admin-theme-color: #007cba;
+            --wp-admin-theme-color-darker-10: #006ba1;
+            --wp-admin-theme-color-darker-20: #005a87;
+            --wp-admin-border-width-focus: 2px;
+            --reach-combobox: 1;
+            --mdc-layout-grid-margin-desktop: 24px;
+            --mdc-layout-grid-gutter-desktop: 24px;
+            --mdc-layout-grid-column-width-desktop: 72px;
+            --mdc-layout-grid-margin-tablet: 16px;
+            --mdc-layout-grid-gutter-tablet: 16px;
+            --mdc-layout-grid-column-width-tablet: 72px;
+            --mdc-layout-grid-margin-phone: 16px;
+            --mdc-layout-grid-gutter-phone: 16px;
+            --mdc-layout-grid-column-width-phone: 72px;
+            color: #373737;
+            font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            vertical-align: baseline;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            text-decoration: none;
+            background: 0;
+            line-height: 1;
+            position: fixed;
+            right: 0;
+            transform: translateY(-50%);
+            margin-right: 2px;
+            top: inherit !important;
+            /* bottom: 1%; */
+            bottom: 60px;
+            z-index: 9;
+}
+
+.sticky-buttons li {
+        --mdc-typography-headline1-font-size: 96px;
+            --mdc-typography-headline1-line-height: 96px;
+            --mdc-typography-headline1-font-style: normal;
+            --mdc-typography-headline1-font-weight: 300;
+            --mdc-typography-headline1-letter-spacing: -1.5px;
+            --mdc-typography-headline2-font-size: 60px;
+            --mdc-typography-headline2-line-height: 60px;
+            --mdc-typography-headline2-font-style: normal;
+            --mdc-typography-headline2-font-weight: 300;
+            --mdc-typography-headline2-letter-spacing: -0.5px;
+            --mdc-typography-headline3-font-size: 48px;
+            --mdc-typography-headline3-line-height: 50px;
+            --mdc-typography-headline3-font-style: normal;
+            --mdc-typography-headline3-font-weight: 400;
+            --mdc-typography-headline3-letter-spacing: 0px;
+            --mdc-typography-headline4-font-size: 34px;
+            --mdc-typography-headline4-line-height: 40px;
+            --mdc-typography-headline4-font-style: normal;
+            --mdc-typography-headline4-font-weight: 400;
+            --mdc-typography-headline4-letter-spacing: 0.25px;
+            --mdc-typography-headline5-font-size: 24px;
+            --mdc-typography-headline5-line-height: 32px;
+            --mdc-typography-headline5-font-style: normal;
+            --mdc-typography-headline5-font-weight: 400;
+            --mdc-typography-headline5-letter-spacing: 0px;
+            --mdc-typography-headline6-font-size: 20px;
+            --mdc-typography-headline6-line-height: 32px;
+            --mdc-typography-headline6-font-style: normal;
+            --mdc-typography-headline6-font-weight: 500;
+            --mdc-typography-headline6-letter-spacing: 0.15px;
+            --mdc-typography-subtitle1-font-size: 16px;
+            --mdc-typography-subtitle1-line-height: 28px;
+            --mdc-typography-subtitle1-font-style: normal;
+            --mdc-typography-subtitle1-font-weight: 400;
+            --mdc-typography-subtitle1-letter-spacing: 0.15px;
+            --mdc-typography-subtitle2-font-size: 14px;
+            --mdc-typography-subtitle2-line-height: 22px;
+            --mdc-typography-subtitle2-font-style: normal;
+            --mdc-typography-subtitle2-font-weight: 500;
+            --mdc-typography-subtitle2-letter-spacing: 0.1px;
+            --mdc-typography-body1-font-size: 16px;
+            --mdc-typography-body1-line-height: 24px;
+            --mdc-typography-body1-font-style: normal;
+            --mdc-typography-body1-font-weight: 400;
+            --mdc-typography-body1-letter-spacing: 0.5px;
+            --mdc-typography-body2-font-size: 14px;
+            --mdc-typography-body2-line-height: 20px;
+            --mdc-typography-body2-font-style: normal;
+            --mdc-typography-body2-font-weight: 400;
+            --mdc-typography-body2-letter-spacing: 0.25px;
+            --mdc-typography-caption-font-size: 12px;
+            --mdc-typography-caption-line-height: 20px;
+            --mdc-typography-caption-font-style: normal;
+            --mdc-typography-caption-font-weight: 400;
+            --mdc-typography-caption-letter-spacing: 0.4px;
+            --mdc-typography-button-font-size: 14px;
+            --mdc-typography-button-line-height: 36px;
+            --mdc-typography-button-font-style: normal;
+            --mdc-typography-button-font-weight: 500;
+            --mdc-typography-button-letter-spacing: 1.25px;
+            --mdc-typography-overline-font-size: 12px;
+            --mdc-typography-overline-line-height: 32px;
+            --mdc-typography-overline-font-style: normal;
+            --mdc-typography-overline-font-weight: 500;
+            --mdc-typography-overline-letter-spacing: 1.5px;
+            --mdc-theme-primary: #0057b8;
+            --mdc-theme-primary-rgb: 0, 87, 184;
+            --mdc-theme-on-primary: #ffffff;
+            --mdc-theme-on-primary-rgb: 255, 255, 255;
+            --mdc-theme-secondary: #ffd700;
+            --mdc-theme-secondary-rgb: 255, 215, 0;
+            --mdc-theme-on-secondary: #000000;
+            --mdc-theme-on-secondary-rgb: 0, 0, 0;
+            --mdc-theme-surface: #ffd700;
+            --mdc-theme-surface-rgb: 255, 215, 0;
+            --mdc-theme-on-surface: #000000;
+            --mdc-theme-on-surface-rgb: 0, 0, 0;
+            --mdc-theme-surface-mix-4: #f5ce00;
+            --mdc-theme-surface-mix-12: #e0bd00;
+            --mdc-icons-font-family: "Material Icons";
+            --mdc-typography-headline1-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline2-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline3-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline4-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline5-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline6-font-family: "Roboto", sans-serif;
+            --mdc-typography-subtitle1-font-family: "Roboto", sans-serif;
+            --mdc-typography-subtitle2-font-family: "Roboto", sans-serif;
+            --mdc-typography-font-family: "Roboto", sans-serif;
+            --mdc-typography-body1-font-family: "Roboto", sans-serif;
+            --mdc-typography-body2-font-family: "Roboto", sans-serif;
+            --mdc-typography-caption-font-family: "Roboto", sans-serif;
+            --mdc-typography-button-font-family: "Roboto", sans-serif;
+            --mdc-typography-overline-font-family: "Roboto", sans-serif;
+            --mdc-button-radius: 10px;
+            --mdc-card-radius: 10px;
+            --mdc-chip-radius: 10px;
+            --mdc-data-table-radius: 10px;
+            --mdc-image-list-radius: 10px;
+            --mdc-nav-drawer-radius: 10px;
+            --mdc-text-field-radius: 10px;
+            --wp-admin-theme-color: #007cba;
+            --wp-admin-theme-color-darker-10: #006ba1;
+            --wp-admin-theme-color-darker-20: #005a87;
+            --wp-admin-border-width-focus: 2px;
+            --reach-combobox: 1;
+            --mdc-layout-grid-margin-desktop: 24px;
+            --mdc-layout-grid-gutter-desktop: 24px;
+            --mdc-layout-grid-column-width-desktop: 72px;
+            --mdc-layout-grid-margin-tablet: 16px;
+            --mdc-layout-grid-gutter-tablet: 16px;
+            --mdc-layout-grid-column-width-tablet: 72px;
+            --mdc-layout-grid-margin-phone: 16px;
+            --mdc-layout-grid-gutter-phone: 16px;
+            --mdc-layout-grid-column-width-phone: 72px;
+            color: #373737;
+            font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            vertical-align: baseline;
+            list-style: none;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            text-decoration: none;
+            background: 0;
+            line-height: 1;
+            margin: 2px 0;
+}
+
+.sticky-buttons li a {
+        --mdc-typography-headline1-font-size: 96px;
+            --mdc-typography-headline1-line-height: 96px;
+            --mdc-typography-headline1-font-style: normal;
+            --mdc-typography-headline1-font-weight: 300;
+            --mdc-typography-headline1-letter-spacing: -1.5px;
+            --mdc-typography-headline2-font-size: 60px;
+            --mdc-typography-headline2-line-height: 60px;
+            --mdc-typography-headline2-font-style: normal;
+            --mdc-typography-headline2-font-weight: 300;
+            --mdc-typography-headline2-letter-spacing: -0.5px;
+            --mdc-typography-headline3-font-size: 48px;
+            --mdc-typography-headline3-line-height: 50px;
+            --mdc-typography-headline3-font-style: normal;
+            --mdc-typography-headline3-font-weight: 400;
+            --mdc-typography-headline3-letter-spacing: 0px;
+            --mdc-typography-headline4-font-size: 34px;
+            --mdc-typography-headline4-line-height: 40px;
+            --mdc-typography-headline4-font-style: normal;
+            --mdc-typography-headline4-font-weight: 400;
+            --mdc-typography-headline4-letter-spacing: 0.25px;
+            --mdc-typography-headline5-font-size: 24px;
+            --mdc-typography-headline5-line-height: 32px;
+            --mdc-typography-headline5-font-style: normal;
+            --mdc-typography-headline5-font-weight: 400;
+            --mdc-typography-headline5-letter-spacing: 0px;
+            --mdc-typography-headline6-font-size: 20px;
+            --mdc-typography-headline6-line-height: 32px;
+            --mdc-typography-headline6-font-style: normal;
+            --mdc-typography-headline6-font-weight: 500;
+            --mdc-typography-headline6-letter-spacing: 0.15px;
+            --mdc-typography-subtitle1-font-size: 16px;
+            --mdc-typography-subtitle1-line-height: 28px;
+            --mdc-typography-subtitle1-font-style: normal;
+            --mdc-typography-subtitle1-font-weight: 400;
+            --mdc-typography-subtitle1-letter-spacing: 0.15px;
+            --mdc-typography-subtitle2-font-size: 14px;
+            --mdc-typography-subtitle2-line-height: 22px;
+            --mdc-typography-subtitle2-font-style: normal;
+            --mdc-typography-subtitle2-font-weight: 500;
+            --mdc-typography-subtitle2-letter-spacing: 0.1px;
+            --mdc-typography-body1-font-size: 16px;
+            --mdc-typography-body1-line-height: 24px;
+            --mdc-typography-body1-font-style: normal;
+            --mdc-typography-body1-font-weight: 400;
+            --mdc-typography-body1-letter-spacing: 0.5px;
+            --mdc-typography-body2-font-size: 14px;
+            --mdc-typography-body2-line-height: 20px;
+            --mdc-typography-body2-font-style: normal;
+            --mdc-typography-body2-font-weight: 400;
+            --mdc-typography-body2-letter-spacing: 0.25px;
+            --mdc-typography-caption-font-size: 12px;
+            --mdc-typography-caption-line-height: 20px;
+            --mdc-typography-caption-font-style: normal;
+            --mdc-typography-caption-font-weight: 400;
+            --mdc-typography-caption-letter-spacing: 0.4px;
+            --mdc-typography-button-font-size: 14px;
+            --mdc-typography-button-line-height: 36px;
+            --mdc-typography-button-font-style: normal;
+            --mdc-typography-button-font-weight: 500;
+            --mdc-typography-button-letter-spacing: 1.25px;
+            --mdc-typography-overline-font-size: 12px;
+            --mdc-typography-overline-line-height: 32px;
+            --mdc-typography-overline-font-style: normal;
+            --mdc-typography-overline-font-weight: 500;
+            --mdc-typography-overline-letter-spacing: 1.5px;
+            --mdc-theme-primary: #0057b8;
+            --mdc-theme-primary-rgb: 0, 87, 184;
+            --mdc-theme-on-primary: #ffffff;
+            --mdc-theme-on-primary-rgb: 255, 255, 255;
+            --mdc-theme-secondary: #ffd700;
+            --mdc-theme-secondary-rgb: 255, 215, 0;
+            --mdc-theme-on-secondary: #000000;
+            --mdc-theme-on-secondary-rgb: 0, 0, 0;
+            --mdc-theme-surface: #ffd700;
+            --mdc-theme-surface-rgb: 255, 215, 0;
+            --mdc-theme-on-surface: #000000;
+            --mdc-theme-on-surface-rgb: 0, 0, 0;
+            --mdc-theme-surface-mix-4: #f5ce00;
+            --mdc-theme-surface-mix-12: #e0bd00;
+            --mdc-icons-font-family: "Material Icons";
+            --mdc-typography-headline1-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline2-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline3-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline4-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline5-font-family: "Roboto", sans-serif;
+            --mdc-typography-headline6-font-family: "Roboto", sans-serif;
+            --mdc-typography-subtitle1-font-family: "Roboto", sans-serif;
+            --mdc-typography-subtitle2-font-family: "Roboto", sans-serif;
+            --mdc-typography-font-family: "Roboto", sans-serif;
+            --mdc-typography-body1-font-family: "Roboto", sans-serif;
+            --mdc-typography-body2-font-family: "Roboto", sans-serif;
+            --mdc-typography-caption-font-family: "Roboto", sans-serif;
+            --mdc-typography-button-font-family: "Roboto", sans-serif;
+            --mdc-typography-overline-font-family: "Roboto", sans-serif;
+            --mdc-button-radius: 10px;
+            --mdc-card-radius: 10px;
+            --mdc-chip-radius: 10px;
+            --mdc-data-table-radius: 10px;
+            --mdc-image-list-radius: 10px;
+            --mdc-nav-drawer-radius: 10px;
+            --mdc-text-field-radius: 10px;
+            --wp-admin-theme-color: #007cba;
+            --wp-admin-theme-color-darker-10: #006ba1;
+            --wp-admin-theme-color-darker-20: #005a87;
+            --wp-admin-border-width-focus: 2px;
+            --reach-combobox: 1;
+            --mdc-layout-grid-margin-desktop: 24px;
+            --mdc-layout-grid-gutter-desktop: 24px;
+            --mdc-layout-grid-column-width-desktop: 72px;
+            --mdc-layout-grid-margin-tablet: 16px;
+            --mdc-layout-grid-gutter-tablet: 16px;
+            --mdc-layout-grid-column-width-tablet: 72px;
+            --mdc-layout-grid-margin-phone: 16px;
+            --mdc-layout-grid-gutter-phone: 16px;
+            --mdc-layout-grid-column-width-phone: 72px;
+            font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+            font-family: inherit;
+            font-size: 100%;
+            font-style: inherit;
+            font-weight: inherit;
+            vertical-align: baseline;
+            color: #1733c4;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+            border: 0;
+            outline: 0;
+            text-decoration: none;
+            background: 0;
+            line-height: 1;
+}
+
+
+.sticky-buttons li a .sb-label {
+    --mdc-typography-headline1-font-size: 96px;
+        --mdc-typography-headline1-line-height: 96px;
+        --mdc-typography-headline1-font-style: normal;
+        --mdc-typography-headline1-font-weight: 300;
+        --mdc-typography-headline1-letter-spacing: -1.5px;
+        --mdc-typography-headline2-font-size: 60px;
+        --mdc-typography-headline2-line-height: 60px;
+        --mdc-typography-headline2-font-style: normal;
+        --mdc-typography-headline2-font-weight: 300;
+        --mdc-typography-headline2-letter-spacing: -0.5px;
+        --mdc-typography-headline3-font-size: 48px;
+        --mdc-typography-headline3-line-height: 50px;
+        --mdc-typography-headline3-font-style: normal;
+        --mdc-typography-headline3-font-weight: 400;
+        --mdc-typography-headline3-letter-spacing: 0px;
+        --mdc-typography-headline4-font-size: 34px;
+        --mdc-typography-headline4-line-height: 40px;
+        --mdc-typography-headline4-font-style: normal;
+        --mdc-typography-headline4-font-weight: 400;
+        --mdc-typography-headline4-letter-spacing: 0.25px;
+        --mdc-typography-headline5-font-size: 24px;
+        --mdc-typography-headline5-line-height: 32px;
+        --mdc-typography-headline5-font-style: normal;
+        --mdc-typography-headline5-font-weight: 400;
+        --mdc-typography-headline5-letter-spacing: 0px;
+        --mdc-typography-headline6-font-size: 20px;
+        --mdc-typography-headline6-line-height: 32px;
+        --mdc-typography-headline6-font-style: normal;
+        --mdc-typography-headline6-font-weight: 500;
+        --mdc-typography-headline6-letter-spacing: 0.15px;
+        --mdc-typography-subtitle1-font-size: 16px;
+        --mdc-typography-subtitle1-line-height: 28px;
+        --mdc-typography-subtitle1-font-style: normal;
+        --mdc-typography-subtitle1-font-weight: 400;
+        --mdc-typography-subtitle1-letter-spacing: 0.15px;
+        --mdc-typography-subtitle2-font-size: 14px;
+        --mdc-typography-subtitle2-line-height: 22px;
+        --mdc-typography-subtitle2-font-style: normal;
+        --mdc-typography-subtitle2-font-weight: 500;
+        --mdc-typography-subtitle2-letter-spacing: 0.1px;
+        --mdc-typography-body1-font-size: 16px;
+        --mdc-typography-body1-line-height: 24px;
+        --mdc-typography-body1-font-style: normal;
+        --mdc-typography-body1-font-weight: 400;
+        --mdc-typography-body1-letter-spacing: 0.5px;
+        --mdc-typography-body2-font-size: 14px;
+        --mdc-typography-body2-line-height: 20px;
+        --mdc-typography-body2-font-style: normal;
+        --mdc-typography-body2-font-weight: 400;
+        --mdc-typography-body2-letter-spacing: 0.25px;
+        --mdc-typography-caption-font-size: 12px;
+        --mdc-typography-caption-line-height: 20px;
+        --mdc-typography-caption-font-style: normal;
+        --mdc-typography-caption-font-weight: 400;
+        --mdc-typography-caption-letter-spacing: 0.4px;
+        --mdc-typography-button-font-size: 14px;
+        --mdc-typography-button-line-height: 36px;
+        --mdc-typography-button-font-style: normal;
+        --mdc-typography-button-font-weight: 500;
+        --mdc-typography-button-letter-spacing: 1.25px;
+        --mdc-typography-overline-font-size: 12px;
+        --mdc-typography-overline-line-height: 32px;
+        --mdc-typography-overline-font-style: normal;
+        --mdc-typography-overline-font-weight: 500;
+        --mdc-typography-overline-letter-spacing: 1.5px;
+        --mdc-theme-primary: #0057b8;
+        --mdc-theme-primary-rgb: 0, 87, 184;
+        --mdc-theme-on-primary: #ffffff;
+        --mdc-theme-on-primary-rgb: 255, 255, 255;
+        --mdc-theme-secondary: #ffd700;
+        --mdc-theme-secondary-rgb: 255, 215, 0;
+        --mdc-theme-on-secondary: #000000;
+        --mdc-theme-on-secondary-rgb: 0, 0, 0;
+        --mdc-theme-surface: #ffd700;
+        --mdc-theme-surface-rgb: 255, 215, 0;
+        --mdc-theme-on-surface: #000000;
+        --mdc-theme-on-surface-rgb: 0, 0, 0;
+        --mdc-theme-surface-mix-4: #f5ce00;
+        --mdc-theme-surface-mix-12: #e0bd00;
+        --mdc-icons-font-family: "Material Icons";
+        --mdc-typography-headline1-font-family: "Roboto", sans-serif;
+        --mdc-typography-headline2-font-family: "Roboto", sans-serif;
+        --mdc-typography-headline3-font-family: "Roboto", sans-serif;
+        --mdc-typography-headline4-font-family: "Roboto", sans-serif;
+        --mdc-typography-headline5-font-family: "Roboto", sans-serif;
+        --mdc-typography-headline6-font-family: "Roboto", sans-serif;
+        --mdc-typography-subtitle1-font-family: "Roboto", sans-serif;
+        --mdc-typography-subtitle2-font-family: "Roboto", sans-serif;
+        --mdc-typography-font-family: "Roboto", sans-serif;
+        --mdc-typography-body1-font-family: "Roboto", sans-serif;
+        --mdc-typography-body2-font-family: "Roboto", sans-serif;
+        --mdc-typography-caption-font-family: "Roboto", sans-serif;
+        --mdc-typography-button-font-family: "Roboto", sans-serif;
+        --mdc-typography-overline-font-family: "Roboto", sans-serif;
+        --mdc-button-radius: 10px;
+        --mdc-card-radius: 10px;
+        --mdc-chip-radius: 10px;
+        --mdc-data-table-radius: 10px;
+        --mdc-image-list-radius: 10px;
+        --mdc-nav-drawer-radius: 10px;
+        --mdc-text-field-radius: 10px;
+        --wp-admin-theme-color: #007cba;
+        --wp-admin-theme-color-darker-10: #006ba1;
+        --wp-admin-theme-color-darker-20: #005a87;
+        --wp-admin-border-width-focus: 2px;
+        --reach-combobox: 1;
+        --mdc-layout-grid-margin-desktop: 24px;
+        --mdc-layout-grid-gutter-desktop: 24px;
+        --mdc-layout-grid-column-width-desktop: 72px;
+        --mdc-layout-grid-margin-tablet: 16px;
+        --mdc-layout-grid-gutter-tablet: 16px;
+        --mdc-layout-grid-column-width-tablet: 72px;
+        --mdc-layout-grid-margin-phone: 16px;
+        --mdc-layout-grid-gutter-phone: 16px;
+        --mdc-layout-grid-column-width-phone: 72px;
+        font: 15px "Helvetica Neue", Helvetica, Arial, sans-serif;
+        font-family: inherit;
+        font-style: inherit;
+        font-weight: inherit;
+        vertical-align: baseline;
+        list-style: none;
+        margin: 0;
+        border: 0;
+        outline: 0;
+        text-decoration: none;
+        position: absolute;
+        padding: 0 10px;
+        cursor: pointer;
+        white-space: nowrap;
+        z-index: 3;
+        visibility: visible;
+        opacity: 1;
+        background: #FFD700 !important;
+        height: 40px;
+        line-height: 40px;
+        font-size: 20px;
+        border-radius: 5px;
+        right: 100%;
+        margin-right: 12px;
+        color: rgb(0, 87, 184);
+}
+
+
+@media only screen and (max-width: 640px) {
+    .aboutme {
+        margin: 0 1rem;
+    }
+    .sticky-buttons {
+        
+    }
+    .description {
+        padding-bottom: 8rem;
+    }
+}
