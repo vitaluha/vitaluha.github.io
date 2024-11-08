@@ -3,26 +3,13 @@
 
 <head>
   <!-- <meta name="viewport" content="initial-scale = 1,maximum-scale = 1" />  -->
-  <meta
-    name="viewport"
-    content="initial-scale = 1"
-  />
+  <meta name="viewport" content="initial-scale = 1" />
   <title>Vitaliy Matiyash</title>
-  <link
-    rel="stylesheet"
-    href="main.css"
-  />
-  <link
-    rel="icon"
-    type="image/png"
-    href="../favicon.png"
-  >
+  <link rel="stylesheet" href="main.css" />
+  <link rel="icon" type="image/png" href="../favicon.png">
   <script src="scripts/jquery-1.12.4.min.js"></script>
   <script src="scripts/jquery-ui-1.12.1/jquery-ui.min.js"></script>
-  <link
-    rel="stylesheet"
-    href="scripts/jquery-ui-1.12.1/jquery-ui.min.css"
-  >
+  <link rel="stylesheet" href="scripts/jquery-ui-1.12.1/jquery-ui.min.css">
   <script>
     (function (i, s, o, g, r, a, m) {
       i['GoogleAnalyticsObject'] = r; i[r] = i[r] || function () {
@@ -45,16 +32,8 @@
         tabindex="0"
         href="Vitaliy-Matiyash-Resume.pdf"
       >Resume</a> -->
-      <a
-        class="header-nav-item"
-        tabindex="0"
-        href="mailto:vmatiyash@gmail.com"
-      >Email</a>
-      <a
-        class="header-nav-item"
-        tabindex="0"
-        href="http://www.linkedin.com/in/vitaliymatiyash/"
-      >LinkedIn</a>
+      <a class="header-nav-item" tabindex="0" href="mailto:vmatiyash@gmail.com">Email</a>
+      <a class="header-nav-item" tabindex="0" href="http://www.linkedin.com/in/vitaliymatiyash/">LinkedIn</a>
       <!-- <a class="header-nav-item" tabindex="0" href="https://medium.com/@VitaliyMatiyash">Blog</a> -->
       <!-- <a class="header-nav-item" tabindex="0" href="projects.html">Projects</a> -->
       <!-- <a class="header-nav-item" tabindex="0" href="my_photos.html">Photos</a> -->
@@ -63,10 +42,7 @@
   <main class="description">
     <div class="main-wrap">
       <div class="photo">
-        <img
-          src="images/me1.jpg"
-          alt="Vitaliy Matiyash - Profile Picture"
-        />
+        <img src="images/me1.jpg" alt="Vitaliy Matiyash - Profile Picture" />
       </div>
       <h1 class="name">
         Vitaliy Matiyash
@@ -75,153 +51,77 @@
         Senior Software Engineer, Builder, Problem Solver, Newbie Conference Speaker
       </div>
     </div>
-   
+
     <section>
-      <button
-        id="my-projects-header"
-        class="my-photos-header"
-        onclick="sectionClick('projects-section', 'my-projects-header')"
-      >Projects</button>
-      <div
-        class="photo-gallery-wrap projects-section"
-        style="display: none;"
-      >
+      <button id="my-projects-header" class="my-photos-header"
+        onclick="sectionClick('projects-section', 'my-projects-header')">Projects</button>
+      <div class="photo-gallery-wrap projects-section" style="display: none;">
         <ul class="my-project-list">
-          <li
-            class="my-project-item"
-            onclick="projectClick('http://ucao.us/')"
-          >
+          <li class="my-project-item" onclick="projectClick('http://ucao.us/')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Ukrainian Cultural Association of Ohio</span>
               </a>
               <div class="framework-name">WordPress</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/ucao-us.png"
-              alt="Ukrainian Cultural Association of Ohio"
-            >
+            <img target="_blank" src="images/projects/ucao-us.png" alt="Ukrainian Cultural Association of Ohio">
           </li>
-          <li
-            class="my-project-item"
-            onclick="projectClick('https://measurecampboard.herokuapp.com/2021?city=Europe')"
-          >
+          <li class="my-project-item" onclick="projectClick('https://measurecampboard.herokuapp.com/2021?city=Europe')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>MeasureCamp Columbus Session Board</span>
               </a>
               <div class="framework-name">HTML5, jQuery, Semantic UI</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/measure-camp-session-board.PNG"
-              alt="MeasureCamp Columbus Session Board"
-            >
+            <img target="_blank" src="images/projects/measure-camp-session-board.PNG"
+              alt="MeasureCamp Columbus Session Board">
           </li>
           <!-- Bread Basket -->
-          <li
-            class="my-project-item"
-            onclick="projectClick('bread-basket/index.html')"
-            
-          >
+          <li class="my-project-item" onclick="projectClick('bread-basket/index.html')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Bread Basket</span>
               </a>
               <div class="framework-name">HTML5, jQuery, Semantic UI</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/email-insert.png"
-              alt="Bread Basket"
-            >
+            <img target="_blank" src="images/projects/email-insert.png" alt="Bread Basket">
           </li>
           <!-- END Bread Basket -->
-          <li
-            class="my-project-item"
-            onclick="projectClick('call-center-map/index.html')"
-          >
+          <li class="my-project-item" onclick="projectClick('call-center-map/index.html')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Call Center Map</span>
               </a>
               <div class="framework-name">D3.js</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/call-center-map.PNG"
-              alt="Call Center Map project"
-            >
+            <img target="_blank" src="images/projects/call-center-map.PNG" alt="Call Center Map project">
           </li>
-          <li
-            class="my-project-item"
-            onclick="projectClick('action-item-portal/index.html')"
-          >
+          <li class="my-project-item" onclick="projectClick('action-item-portal/index.html')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Action Item Portal</span>
               </a>
               <div class="framework-name">Ext JS</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/action-item-portal.png"
-              alt="Action Item Portal project"
-            >
+            <img target="_blank" src="images/projects/action-item-portal.png" alt="Action Item Portal project">
           </li>
-          <li
-            class="my-project-item"
-            onclick="projectClick('datamap/map.html')"
-          >
+          <li class="my-project-item" onclick="projectClick('datamap/map.html')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Farmers Markets Map</span>
               </a>
               <div class="framework-name">d3.js</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/farmers-markets-map.PNG"
-              alt="Farmers Markets Map"
-            >
+            <img target="_blank" src="images/projects/farmers-markets-map.PNG" alt="Farmers Markets Map">
           </li>
-          <li
-            class="my-project-item"
-            onclick="projectClick('airbnb/index.html')"
-          >
+          <li class="my-project-item" onclick="projectClick('airbnb/index.html')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Columbus AirBnB</span>
               </a>
               <div class="framework-name">d3.js</div>
             </div>
-            <img
-              target="_blank"
-              src="images/projects/columbus-airbnb.PNG"
-              alt="Columbus AirBnB"
-            >
+            <img target="_blank" src="images/projects/columbus-airbnb.PNG" alt="Columbus AirBnB">
           </li>
 
           <!-- <li
@@ -244,56 +144,48 @@
             >
           </li> -->
 
-          <li
-            class="my-project-item"
-            onclick="projectClick('https://www.loom.com/share/b2678bd059634ba1b77dcf22330b1e8d')"
-          >
+          <li class="my-project-item"
+            onclick="projectClick('https://www.loom.com/share/b2678bd059634ba1b77dcf22330b1e8d')">
             <div class="wrap">
-              <a href="https://www.loom.com/share/b2678bd059634ba1b77dcf22330b1e8d"><span>Registration and Password Strength Project</span>
+              <a href="https://www.loom.com/share/b2678bd059634ba1b77dcf22330b1e8d"><span>Registration and Password
+                  Strength Project</span>
               </a>
               <div class="framework-name">Java 8, JSF</div>
             </div>
-            <img
-              src="images/projects/card-lock-unlock.PNG"
-              alt="Registration and Password Strength Project"
-            >
+            <img src="images/projects/card-lock-unlock.PNG" alt="Registration and Password Strength Project">
             <!-- <iframe width="640" height="360" src="https://www.loom.com/embed/b2678bd059634ba1b77dcf22330b1e8d" frameborder="0" webkitallowfullscreen mozallowfullscreen allowfullscreen></iframe> -->
             <!-- <img src="images/projects/card-lock-unlock.PNG" alt="Card Lock Unlock project"> -->
           </li>
         </ul>
       </div>
     </section>
-    <section >
-      <button
-        id="my-talks-header"
-        class="my-photos-header"
-        onclick="sectionClick('talks-section', 'my-talks-header')"
-      >Talks</button>
-      <div
-        class="photo-gallery-wrap talks-section"
-        style="display: none;"
-      >
+    <section>
+      <button id="my-talks-header" class="my-photos-header"
+        onclick="sectionClick('talks-section', 'my-talks-header')">Talks</button>
+      <div class="photo-gallery-wrap talks-section" style="display: none;">
         <ul class="my-talks-list">
-          <li
-            class="my-project-item"
-            onclick="projectClick('dark-ux-patterns/index.html')"
-          >
+          <li class="my-project-item" onclick="projectClick('dark-ux-patterns/index.html')">
             <div class="wrap">
-              <a
-                href="javascript:void;"
-                target="_blank"
-              >
+              <a href="javascript:void;" target="_blank">
                 <span>Dark UX Patterns</span>
               </a>
               <div class="framework-name">CodeMash 2022</div>
               <div class="framework-name">MomentumDevCon 2022</div>
               <div class="framework-name">STIR TREK 2023</div>
             </div>
-            <img
-              target="_blank"
-              src="dark-ux-patterns/images/1_4wLaaa-l_iyML4mqNBX8gw.png"
-              alt="CodeMash 2022: Dark UX Patterns"
-            >
+            <img target="_blank" src="dark-ux-patterns/images/1_4wLaaa-l_iyML4mqNBX8gw.png"
+              alt="CodeMash 2022: Dark UX Patterns">
+          </li>
+
+          <li class="my-project-item" onclick="projectClick('java-anti-patterns/Java Anti-Patterns.pptx')">
+            <div class="wrap">
+              <a href="javascript:void;" target="_blank">
+                <span>Java Anti Patterns</span>
+              </a>
+              <div class="framework-name">CodeMash 2024</div>
+            </div>
+            <img target="_blank" src="java-anti-patterns/java-anti-patterns.png"
+              alt="CodeMash 2024: Java Anti Patterns">
           </li>
 
         </ul>
@@ -301,72 +193,39 @@
     </section>
     <!-- PHOTOS -->
     <section>
-      <button
-        id="my-photos-header"
-        class="my-photos-header"
-        onclick="sectionClick('photos-section', 'my-photos-header')"
-      >Photos</button>
-      <div
-        class="photo-gallery-wrap photos-section"
-        style="display: none;"
-      >
+      <button id="my-photos-header" class="my-photos-header"
+        onclick="sectionClick('photos-section', 'my-photos-header')">Photos</button>
+      <div class="photo-gallery-wrap photos-section" style="display: none;">
         <div class="gallery-photo">
-          <img
-            src="images/ny.jpg"
-            alt="New York"
-          >
+          <img src="images/ny.jpg" alt="New York">
         </div>
         <div class="gallery-photo">
-          <img
-            src="images/astoria.jpg"
-            alt="Astoria"
-          >
+          <img src="images/astoria.jpg" alt="Astoria">
         </div>
         <div class="gallery-photo">
-          <img
-            src="images/bryce.jpg"
-            alt="Bryce Canyon"
-          >
+          <img src="images/bryce.jpg" alt="Bryce Canyon">
         </div>
         <div class="gallery-photo">
-          <img
-            src="images/monument_valley.jpg"
-            alt="Monument Valley"
-          >
+          <img src="images/monument_valley.jpg" alt="Monument Valley">
         </div>
         <div class="gallery-photo">
-          <img
-            src="images/mesa.jpg"
-            alt="Mesa Arch"
-          >
+          <img src="images/mesa.jpg" alt="Mesa Arch">
         </div>
         <div class="gallery-photo">
-          <img
-            src="images/horseshoe bend panorama.jpg"
-            alt="Horseshoe Bend"
-          >
+          <img src="images/horseshoe bend panorama.jpg" alt="Horseshoe Bend">
         </div>
         <div class="gallery-photo">
-          <img
-            src="images/road.jpg"
-            alt="Road"
-          >
+          <img src="images/road.jpg" alt="Road">
         </div>
       </div>
     </section>
     <!-- END PHOTOS -->
-  
+
   </main>
-  
-  <ul
-    class="sticky-buttons -right-center -rsquare -medium -space"
-    id="sticky-buttons-1"
-  >
+
+  <ul style="display: none;" class="sticky-buttons -right-center -rsquare -medium -space" id="sticky-buttons-1">
     <li>
-      <a
-        href="https://beacons.ai/ucao"
-        class="donate-icon"
-      >
+      <a href="https://beacons.ai/ucao" class="donate-icon">
         <span class="sb-label">Support Ukraine!</span>
       </a>
     </li>

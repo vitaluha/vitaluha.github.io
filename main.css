@@ -359,6 +359,9 @@ u {
     align-items: center;
     flex: 1;
     justify-content: space-between;
+    font-size: 20px;
+    line-height: 24px;
+    height: 24px;
 }
 
 .my-project-item a:hover {
@@ -372,8 +375,10 @@ u {
 
 .my-project-item .framework-name {
     font-family: 'Poppins-Light';
-    padding-right: 2rem;
+    padding-left: 1rem;
     color: #222;
+    line-height: 24px;
+    height: 24px;
 }
 
 .my-project-item img {
